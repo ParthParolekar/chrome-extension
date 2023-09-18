@@ -1,0 +1,170 @@
+#root {
+  max-width: 1280px;
+  min-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Montserrat", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.title {
+  font-size: 4em;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.nav-links .link {
+  cursor: pointer;
+  padding: 0.2em 0.8em;
+}
+
+.nav-links .link:hover {
+  text-decoration: underline;
+}
+
+.nav-links .active-link {
+  background-color: white;
+  color: black;
+}
+
+.generate-btn {
+  font-family: "Montserrat", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 1.6em;
+  font-weight: 700;
+  transition: all 0.3s;
+  border-radius: 10px;
+  padding: 0.4em 1.5em;
+  width: 300px;
+}
+
+.generate-btn:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.dropdown-container {
+  /* max-width: 300px; */
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em auto 0;
+  gap: 1em;
+}
+
+.label {
+  font-size: 1.2em;
+}
+
+.select {
+  /* text-align: center; */
+  background-color: transparent;
+  margin-left: 0.5em;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 0.2em 3em;
+  font-size: 1.5em;
+  /* width: 50%; */
+}
+
+.select option {
+  color: black;
+}
+
+.fact-container {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 1em;
+}
+
+.fact {
+  background-color: whitesmoke;
+  color: black;
+  padding: 1em 2em;
+  font-size: 1.4em;
+  border-radius: 10px;
+  font-weight: 400;
+  margin-top: 0.5em;
+}
+
+.fact-cta-btn {
+  cursor: pointer;
+  font-family: "Montserrat", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 2px 2px black;
+  transition: all 0.2s;
+  font-size: 0.9em;
+  padding: 0.2em 0.6em;
+}
+.fact-cta-btn:hover {
+  box-shadow: 4px 4px black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  margin-top: 1em;
+}
+.wave {
+  width: 5px;
+  height: 20px;
+  /* background: linear-gradient(45deg, cyan, #fff); */
+  background-color: whitesmoke;
+  margin: 3px;
+  animation: wave 1s linear infinite;
+  border-radius: 20px;
+}
+.wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.wave:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.wave:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.wave:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.wave:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.wave:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.wave:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
